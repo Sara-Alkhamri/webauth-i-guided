@@ -1,6 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
+const bcryptjs = ('bcryptjs')
 
 const db = require('./database/dbConfig.js');
 const Users = require('./users/users-model.js');
